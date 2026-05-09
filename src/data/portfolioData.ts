@@ -81,12 +81,15 @@ export const projects: Project[] = [
     "Java, Spring Boot, React, REST APIs, Authentication, PostgreSQL (or your DB), Vercel, GitHub"
 },
 
-  {
-    title: "Mental Health Analysis using Cloud-based Machine Learning",
-    description:
-      "Developed an AI-driven mental health risk prediction model using Random Forest and SVM with 99% accuracy. Built a scalable AWS-based ML pipeline using Lambda, DynamoDB, S3, Flask API, and Elastic Beanstalk.",
-    tech: "Python, Machine Learning, AWS Lambda, DynamoDB, S3, Flask, Elastic Beanstalk",
-  },
+{
+  title: "Mental Health Analysis using Cloud-based Machine Learning",
+
+  description:
+    "Developed an AI-driven mental health risk prediction platform using Random Forest and SVM with 99% accuracy. Built a scalable machine learning pipeline with Flask APIs and initially implemented cloud storage using AWS DynamoDB before later migrating the application to PostgreSQL for improved relational data management and deployment compatibility. Deployed the live application on Render for cloud-based access and real-time predictions.",
+
+  tech:
+    "Python, Machine Learning, Flask, PostgreSQL, AWS DynamoDB, Render, Random Forest, SVM, AWS Lambda, S3, Elastic Beanstalk",
+},
   {
     title: "SnapVibe",
     description:
